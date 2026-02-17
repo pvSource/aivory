@@ -1,6 +1,26 @@
 {
     "name": "pv-source/aivory",
+    "description": "PHP библиотека для работы с AI LLM-провайдерами (OpenAI-совместимое API). Единый интерфейс с поддержкой типизированных ответов, JSON Schema и fluent API, вдохновленным Eloquent",
     "type": "library",
+    "keywords": [
+        "ai",
+        "llm",
+        "openai",
+        "deepseek",
+        "chatgpt",
+        "gpt",
+        "api",
+        "json-schema",
+        "eloquent",
+        "fluent-api"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "PvSource",
+            "email": "your-email@example.com"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "PvSource\\Aivory\\": "src/"
@@ -9,5 +29,7 @@
     "require": {
         "php": "^8.3",
         "guzzlehttp/guzzle": "^7.10"
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
