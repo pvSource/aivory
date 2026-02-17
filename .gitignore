@@ -1,0 +1,43 @@
+# IDE и редакторы
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Зависимости
+/vendor/
+composer.lock
+
+# Конфигурация и секреты
+.env
+.env.local
+.env.*.local
+*.env
+!*.env.example
+
+# Системные файлы
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Логи
+*.log
+logs/
+*.log.*
+
+# Кэш и временные файлы
+.php_cs.cache
+.phpunit.result.cache
+.phpstorm.meta.php
+coverage/
+.phpunit.cache/
+
+# Тесты (если будут добавлены)
+/tests/_output/
+/tests/_support/_generated/

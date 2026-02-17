@@ -1,0 +1,13 @@
+{
+    "name": "pv-source/aivory",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PvSource\\Aivory\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.3",
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
